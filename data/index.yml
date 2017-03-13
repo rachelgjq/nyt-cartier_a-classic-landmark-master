@@ -1,0 +1,259 @@
+{
+	open: {
+		title: "The doors of the Mansion are open once again.",
+		title_text: "After a two-and-a-half year renovation and 99 years on the corner of Fifth Avenue and 52<sup>nd</sup> Street, Cartier’s landmark flagship has reopened. When its doors unlocked, it became the largest Cartier boutique <span class='last-word'>in the world.</span>"
+	},
+	virtual_tour: {
+      	title: "Walk the Halls of Greatness",
+      	intro: "The Fifth Avenue Mansion is the largest Cartier boutique in the world. Experience four floors of breathtaking jewelry, iconic watches, exceptional accessories and more. The boutique has been a fixture of New York City standing at the corner of Fifth Avenue and 52nd Street for more than 99 years. You are invited to take a unique virtual tour that transports you inside the Cartier Mansion. The world of Cartier is at your fingertips.",
+      	captions: [
+      	  {
+      	    image: "images/icon-hotspot.jpg",
+      	    title: "Hotspots",
+      	    cta: "Click hotspots to reveal information"
+      	  },
+      	  {
+            image: "images/icon-arrow.jpg",
+            title: "Arrows",
+            cta: "Use the arrows to navigate the tour"
+          }
+      	]
+	},
+	legends: {
+		title: "House of Legends",
+		text_d: "Architect Thierry Despont has led the transformation of the celebrated Mansion at 653 Fifth Avenue by creating an atmosphere and aesthetic that reflect the changes of the area. Cartier neighbors like <span>The New York Public Library, Henry Clay Frick House, Metropolitan Museum of Art</span> and <span>Central Park</span> were original members of this exclusive early 20th-century district of distinguished homes and cultural institutions. Their eminence has remained intact as a flood of industry and commerce have made Fifth Avenue a business capital of <span class='last-word'>the world.</span>",
+		text1_m: "Architect Thierry Despont has led the transformation of the celebrated mansion at 653 Fifth Avenue by creating an atmosphere and aesthetic that reflect the changes of <span class='last-word'>the area.</span>",
+		text2_m: "Cartier neighbors like <span>The New York Public Library, Henry Clay Frick House, Metropolitan Museum of Art</span> and <span>Central Park</span> were original members of this exclusive early 20th-century district of distinguished homes and cultural institutions. Their eminence has remained intact as a flood of industry and commerce have made Fifth Avenue a business capital of <span class='last-word'>the world.</span>",
+		img_name_d: "text_area_img1.jpg",
+		img_name_m: "text_area_img1.jpg",
+		img_details: "Cartier’s landmark <span class='last-word'>designation plaque</span>"
+		# tour_title: "tour the mansion",
+		# cta: "Start Now"
+	},
+	time: {
+		title: "A Voyage Through Time",
+		title_text: "In the early 1900s, Fifth Avenue was a spectacular area filled with opulent homes. It was a New York business center by the 1970s, and is a global capital for fashion and retail today. Watch this transformation take place on the corner of Fifth Avenue and 52<sup>nd</sup> Street, all while the timeless beauty of the Cartier Mansion <span class='last-word'>remains unchanged.</span>",
+		roll1_d: "<span>360° video</span>&nbsp &nbsp | &nbsp Click play and drag to navigate the experience",
+		roll2_1_d: "<span>360° video</span>",
+		roll2_2_d: "Click play and drag to </br>navigate the experience",
+		roll1_t: "<span>360° video</span>&nbsp &nbsp | &nbsp Tap and drag to navigate the experience",
+		roll2_1_t: "<span>360° video</span>",
+		roll2_2_t: "Tap and drag to </br>navigate the experience"
+	},
+	text_area1: {
+		text1: "At 44,100 square feet over four floors, the new boutique is more than five times the size of the original. When visitors leave the tumult of Fifth Avenue to step inside, they begin a unique journey through Cartier’s history that skillfully mixes homages to Cartier’s legacy with modern <span class='last-word'>technological conveniences.</span>",
+		text2: "Cartier’s trademark classicism is evident throughout the property, with 30 chandeliers that replicate the originals chosen by Pierre Cartier and ceruse oak wood paneling preserved from <span class='last-word'>the original interior.</span>",
+		text3: "Visitors are welcomed by a ground floor that combines a showcase of one-of-a-kind pieces with iconic collections like Love and Trinity. The second floor shimmers with the classic Hollywood charm of some of Cartier’s most famous clients of the 1950s and 1960s: the Elizabeth Taylor Salon is filled with a brilliant collection of High Jewelry ",
+		text4: "pieces, and the Princess Grace Salon (also known as the Diamond Salon) contains a striking array of engagement rings. The third floor houses a suite of exclusive timepieces, among them the storied Tank, which was first prototyped in 1917. General John Pershing, an American World War I hero and commander of the American Expeditionary Force, received one of the first Tank watches as a peacetime gift. Pop artist Andy Warhol (who also has a salon named after him) was known to be keen on it as well. In 1973, he said, “I don’t wear a Tank watch to tell the time. Actually, I never even wind it. I wear a Tank because it is the watch <span class='last-word'>to wear.”</span>",
+		text5: "Visitors are welcomed by a ground floor that combines a showcase of one-of-a-kind pieces with iconic collections like Love and Trinity. The second floor shimmers with the classic Hollywood charm of some of Cartier’s most famous clients of the 1950s and 1960s: the Elizabeth Taylor Salon is filled with a brilliant collection of High Jewelry pieces, and the Princess Grace Salon (also known as the Diamond Salon) contains a striking array of engagement rings. The third floor houses a suite of exclusive timepieces, among them the storied Tank, which was first prototyped in 1917. General John Pershing, an American World War I hero and commander of the American Expeditionary Force, received one of the first Tank watches as a peacetime gift. Pop artist Andy Warhol (who also has a salon named after him) was known to be keen on it as well. In 1973, he said, “I don’t wear a Tank watch to tell the time. Actually, I never even wind it. I wear a Tank because it is the watch <span class='last-word'>to wear.”</span>",
+		img_name_d: "text_area_img2_d.jpg",
+		img_name_m: "text_area_img2_m.jpg",
+		img_details: "Andy Warhol wearing a Tank <span class='last-word'>wristwatch, 1970</span>"
+	},
+	floor: {
+		title: "walk the halls of greatness",
+		title_text: "The Fifth Avenue Mansion is the largest Cartier boutique in the world, and a monument to the company's long history of producing beautiful jewelry and luxury goods. Discover every floor here.",
+		roll_d: "<span>Hover over each image</span> for more information",
+		roll_t: "<span>Tap each image</span> for more information",
+		floor1: {
+			title: "1<sup>ST</sup> FLOOR",
+			title_text: "From the iconic Love bracelet to the vibrant Amulette de Cartier collection, this is the place to explore an array of <span class='last-word'>Cartier classics.</span>"
+		},
+		floor2: {
+			title: "2<sup>ND</sup> FLOOR",
+			title_text: "Cartier has an incredible diamond legacy, and the Diamond Salon (also known as the Princess Grace Salon) honors it with brilliant solitaires, engagement rings and High <span class='last-word'>Jewelry pieces.</span>"
+		},
+		floor3: {
+			title: "3<sup>RD</sup> FLOOR",
+			title_text: "Discover Cartier’s vast range of exquisitely designed watches for men and women, from everyday classics to rare timepieces, including the legendary Tank, Ballon Bleu and <span class='last-word'>Clé collections.</span>"
+		},
+		floor4: {
+			title: "4<sup>TH</sup> FLOOR",
+			title_text: "An elegant range of accessories, including fragrances and leather goods can be found here in a décor inspired by Cartier’s signature <span class='last-word'>red box.</span>"
+		},
+		floor_text: "The wait is almost over. The countdown is underway. A unique, virtual journey through the largest Cartier boutique in the world is set to <span class='last-word'>begin soon.</span>",
+		days: {
+			title: "DAYS"
+		},
+		hours: {
+			title: "HOURS"
+		},
+		mins: {
+			title: "MINUTES"
+		}
+	},
+	carousel: {
+		title: "icons on fifth",
+		title_text: "The Cartier Mansion, like some other neighboring buildings, has retained its old world charm as Fifth Avenue has modernized. Discover these landmarks on a voyage <span class='last-word'>through history.</span>",
+		roll_d: "<span>Hover over each image</span> for more information",
+		roll_t: "<span>Tap each image</span> for more information",
+		slider_img_d: {
+			slides: [
+				single_slider: {
+					image: "images/Slide1_Cartier_Mansion_d.jpg",
+					click_copy: "Click to learn more",
+					info: {
+						caption: "Cartier Mansion",
+						credit: "Legend has it that Pierre Cartier set his eyes on the grand property of industrialist Morton Plant in 1917 when Plant and his wife, Maisie, began planning a move uptown to a less commercial area. The lore continues that Plant traded the Mansion for $100 and a double strand of pearls for <span class='last-word'>his wife.</span>"
+					}
+				},
+				single_slider: {
+					image: "images/Slide2_NewYork_Public_Library_d.jpg",
+					click_copy: "Click to learn more",
+					info: {
+						caption: "The New York Public Library",
+						credit: "The Beaux-Arts building — dedicated on May 23, 1911 — was once the largest marble structure ever attempted in the U.S. It held more than one million books on the day it opened, and the cumulative length of the stacking shelves is 125 miles. The lion statues on either side of the entrance are named “Patience” <span class='last-word'>and “Fortitude.”</span>"
+					}
+				},
+				single_slider: {
+					image: "images/Slide3_TheFrick_d.jpg",
+					click_copy: "Click to learn more",
+					info: {
+						caption: "The Frick Collection",
+						credit: "This limestone mansion was built by magnate Henry Clay Frick from 1912 to 1914 in the gilded, ornate style that dominated Fifth Avenue at this time. It became a museum in 1935 to honor his passion for collecting art. The paintings and furniture in the museum’s Living Hall remain arranged as they were in <span class='last-word'>Frick’s lifetime.</span>"
+					}
+				},
+				single_slider: {
+					image: "images/Slide4_TheMET_d.jpg",
+					click_copy: "Click to learn more",
+					info: {
+						caption: "The Metropolitan Museum of Art",
+						credit: "Famed New York lawyer John Jay led the philanthropic efforts that resulted in The Metropolitan Museum of Art, which established its permanent home in Central Park in 1880. It ranks among the world’s most visited museums and has featured Cartier in several exhibitions. The Met’s collection includes more than two million works <span class='last-word'>of art.</span>"
+					}
+				},
+				single_slider: {
+					image: "images/Slide5_CentralPark_d.jpg",
+					click_copy: "Click to learn more",
+					info: {
+						caption: "Central Park",
+						credit: "In 1858, Central Park became the first landscaped public park in the U.S. It was designed to echo the public grounds of Paris’s Bois de Boulogne and offer a noble public alternative to saloons. It receives millions of visitors each year and is an iconic New York hub for Shakespeare’s plays, street performances, live music events and great <span class='last-word'>people watching.</span>"
+					}
+				}
+			]
+		},
+		slider_img_m: {
+			slides: [
+				single_slider: {
+					image: "images/Slide1_Cartier_Mansion_m.jpg",
+					click_copy: "Click to learn more",
+					info: {
+						caption: "Cartier Mansion",
+						credit: "Legend has it that Pierre Cartier set his eyes on the grand property of industrialist Morton Plant in 1917 when Plant and his wife, Maisie, began planning a move uptown to a less commercial area. The lore continues that Plant traded the Mansion for $100 and a double strand of pearls for <span class='last-word'>his wife.</span>"
+					}
+				},
+				single_slider: {
+					image: "images/Slide2_NewYork_Public_Library_m.jpg",
+					click_copy: "Click to learn more",
+					info: {
+						caption: "The New York Public Library",
+						credit: "The Beaux-Arts building — dedicated on May 23, 1911 — was once the largest marble structure ever attempted in the U.S. It held more than one million books on the day it opened, and the cumulative length of the stacking shelves is 125 miles. The lion statues on either side of the entrance are named “Patience” <span class='last-word'>and “Fortitude.”</span>"
+					}
+				},
+				single_slider: {
+					image: "images/Slide3_TheFrick_m.jpg",
+					click_copy: "Click to learn more",
+					info: {
+						caption: "The Frick Collection",
+						credit: "This limestone mansion was built by magnate Henry Clay Frick from 1912 to 1914 in the gilded, ornate style that dominated Fifth Avenue at this time. It became a museum in 1935 to honor his passion for collecting art. The paintings and furniture in the museum’s Living Hall remain arranged as they were in <span class='last-word'>Frick’s lifetime.</span>"
+					}
+				},
+				single_slider: {
+					image: "images/Slide4_TheMET_m.jpg",
+					click_copy: "Click to learn more",
+					info: {
+						caption: "The Metropolitan Museum of Art",
+						credit: "Famed New York lawyer John Jay led the philanthropic efforts that resulted in The Metropolitan Museum of Art, which established its permanent home in Central Park in 1880. It ranks among the world’s most visited museums and has featured Cartier in several exhibitions. The Met’s collection includes more than two million works <span class='last-word'>of art.</span>"
+					}
+				},
+				single_slider: {
+					image: "images/Slide5_CentralPark_m.jpg",
+					click_copy: "Click to learn more",
+					info: {
+						caption: "Central Park",
+						credit: "In 1858, Central Park became the first landscaped public park in the U.S. It was designed to echo the public grounds of Paris’s Bois de Boulogne and offer a noble public alternative to saloons. It receives millions of visitors each year and is an iconic New York hub for Shakespeare’s plays, street performances, live music events and great <span class='last-word'>people watching.</span>"
+					}
+				}
+			]
+		}
+	},
+	text_area2: {
+		text1: "The top floor leads to a modern multisensory adventure. An accessories room is decorated entirely in the color of Cartier’s signature red box, including the leather walls and the ceiling. The room also contains 12 numbered scents created by Cartier’s longtime in-house perfumer, Mathilde Laurent. The mood of each scent is visualized in a short film when one of the boxes <span class='last-word'>is opened.</span>",
+		text2: "The building has been a legendary property since it was built. It was discovered by Pierre Cartier, the grandson of Cartier’s founder, after he spent five years searching for a magnificent location in New York City. In 1917, when the neo-Renaissance style mansion in the heart of Manhattan belonging to industrialist Morton Plant became available, Pierre knew he had finally found the perfect place. The acquisition of the home was unique: Plant’s wife, Maisie, fell in love with a Cartier natural pearl necklace. Pierre Cartier proposed a unique swap: the jewelry for the Mansion. A deal was struck and Maisie received the double strand of 128 natural pearls in exchange for <span class='last-word'>the property.</span>",
+		img_name_d: "text_area_img3.gif",
+		img_name_m: "text_area_img3.gif",
+		img_details: "The design of this pearl necklace is inspired by Maisie Caldwell Plant’s double strand <span class='last-word'>of pearls</span>"
+	},
+	news: {
+		title: "Making News for 99 years",
+		title_text: "The Cartier Mansion has been making headlines since it first opened. Explore this collection of articles on the famous boutique in the archives of <span class='last-word'>The New York Times.</span>",
+		roll_d: "<span>Click thumbnails</span> to browse the archives",
+		roll_t: "<span>Tap thumbnails</span> to browse the archives",
+		slider_m_img: {
+			slides: [
+				single_slider: {
+					image: "images/NYT_Cartier_Full_Image_Article1.jpg"
+				},
+				single_slider: {
+					image: "images/NYT_Cartier_Full_Image_Article2.jpg"
+				},
+				single_slider: {
+					image: "images/NYT_Cartier_Full_Image_Article3.jpg"
+				},
+				single_slider: {
+					image: "images/NYT_Cartier_Full_Image_Article4.jpg"
+				}
+			]
+		},
+		slider_m_text: {
+			slides: [
+				single_slider: {
+					btn_link: "http://timesmachine.nytimes.com/timesmachine/1941/04/29/85485792.html?pageNumber=16",
+					caption: "April 29, 1941 Fabulous Diamonds Go On Display; Several million dollars’ worth of diamonds were previewed yesterday <span class='last-word'>at Cartier’s.</span>",
+					credit: "Read More"
+				},
+				single_slider: {
+					btn_link: "http://timesmachine.nytimes.com/timesmachine/1966/08/21/83540771.html?pageNumber=82",
+					caption: "August 21, 1966 Breakfast at Tiffany’s? Now It’s Cocktails at Cartier’s; Albin Holder thinks that breakfast at Tiffany’s has <span class='last-word'>a nice sound.</span>",
+					credit: "Read More"
+				},
+				single_slider: {
+					btn_link: "http://timesmachine.nytimes.com/timesmachine/1969/10/31/81870174.html?pageNumber=40",
+					caption: "October 31, 1969 Diamond at Cartier Draws 6,000 a Day To 5th Ave. Display; The Cartier diamond, 1 1/2 inches long, an inch wide and nearly an inch thick, has been <span class='last-word'>drawing crowds.</span>",
+					credit: "Read More"
+				},
+				single_slider: {
+					btn_link: "http://timesmachine.nytimes.com/timesmachine/1976/09/10/80138057.html?pageNumber=26",
+					caption: "September 10, 1976 The ‘Musts’ as Cartier Sees Them; To collectors of status symbols, owning a Cartier “Santos” watch or its later variation, the Tank watch, <span class='last-word'>is a must.</span>",
+					credit: "Read More"
+				}
+			]
+		},
+		news_btn: {
+			btn_link1: "http://timesmachine.nytimes.com/timesmachine/1941/04/29/85485792.html?pageNumber=16",
+			btn_link2: "http://timesmachine.nytimes.com/timesmachine/1966/08/21/83540771.html?pageNumber=82",
+			btn_link3: "http://timesmachine.nytimes.com/timesmachine/1969/10/31/81870174.html?pageNumber=40",
+			btn_link4: "http://timesmachine.nytimes.com/timesmachine/1976/09/10/80138057.html?pageNumber=26",
+		},
+		cta_title1: "Fabulous Diamonds Go On Display; Several million dollars’ worth of diamonds were previewed yesterday <span class='last-word'>at Cartier’s.</span>",
+		cta_title2: "Breakfast at Tiffany’s? Now It’s Cocktails at Cartier’s; Albin Holder thinks that breakfast at Tiffany’s has <span class='last-word'>a nice sound.</span>",
+		cta_title3: "Diamond at Cartier Draws 6,000 a Day To 5th Ave. Display; The Cartier diamond, 1 1/2 inches long, an inch wide and nearly an inch thick, has been <span class='last-word'>drawing crowds.</span>",
+		cta_title4: "The ‘Musts’ as Cartier Sees Them; To collectors of status symbols, owning a Cartier “Santos” watch or its later variation, the Tank watch, <span class='last-word'>is a must.</span>",
+		cta: "Read More",
+		date1: "April 29, 1941",
+		date2: "August 21, 1966",
+		date3: "October 31, 1969",
+		date4: "September 10, 1976"
+	},
+	text_area3: {
+		text1: "Events like the creation of the Love bracelet in 1969, and the daily arrival of 6,000 people for nearly a week to see the 69-carat diamond ring leading man Richard Burton gave to movie star Elizabeth Taylor the same year, have only increased the fame of the property. The designation of the Mansion as a New York landmark in 1970 and the centennial exhibition in 2009, “100 Years of Passion and Free Spirit in America,” have helped it become one of the most distinctive buildings <span class='last-word'>in the city.</span>",
+		text2: "The Mansion — like several of its Fifth Avenue neighbors — stands strong as the winds of change continue to blow. It was built on New York soil by a luminous collection of unforgettable personalities, laying a foundation that prepared it to stand the test of time. For the next 99 years, it continues on as a classic landmark for the <span class='last-word'>modern age.</span>",
+		text3: "<span class='desktop-break'><span class='mobile-break'>The wait is almost over.</span> <span class='mobile-break'>The countdown is underway.</span></span> A unique, virtual journey through the largest Cartier boutique in the world is set to begin soon. Make sure to return here to explore the Mansion in:",
+		img_name_d: "text_area_img4.jpg",
+		img_name_m: "text_area_img4.jpg",
+		img_details: "The Love Bracelet",
+		sources: "<span>Images</span> (top to bottom, left to right): © Cartier; © Cartier; P. Parinejad © Cartier; Prelinger/Getty Images; Bettmann/Getty Images; © The Andy Warhol Foundation for the Visual Arts, Inc.; <span>Slideshow:</span> (1-4) Floto+Warner (5) Chang W. Lee/The New York Times; © Cartier; © Cartier"
+	},
+	footer: {
+		cta: "plan your visit"
+	}
+}
