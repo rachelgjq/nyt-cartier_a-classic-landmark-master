@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cartier 360 Timeline Video - T Brand Studio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<meta http-equiv="x-ua-compatible" content="IE=edge" />
+    <link rel="stylesheet" type="text/css" media="screen" href="page-styles-v1.0.0.css">
+</head>
+<body>
+    <div id="pano-video-container">
+        <!-- <iframe id="panoFrame" src="krpano.html?xml=videopano.xml" frameborder="0" allowfullscreen></iframe> -->
+        <div id="pano">
+			<noscript><table style="width:100%;height:100%;"><tr style="vertical-align:middle;text-align:center;"><td>ERROR:<br><br>Javascript not activated<br><br></td></tr></table></noscript>
+		</div>
+        <div class="overlay">
+        	<div class="play-button">
+             <img src="playIcon.svg"/>
+            </div>
+        	<div class="cta-icon">
+                <span>360&deg;</span>
+        		<img src="EYE.png" width="52" />
+        	</div>
+        </div>
+    </div>
+    <script src="krpano.js"></script>
+    <script type="text/javascript">
+	    embedpano({
+			xml:"videopano.xml", 
+			target:"pano", 
+			html5:"auto", 
+			mwheel: false,
+			mobilescale:1.0, 
+			passQueryParameters:true
+		});
+
+		var krpano = document.getElementById("krpanoSWFObject");
+		var firstplayback = false;
+		var ctaOverlay = document.querySelector("#pano-video-container .overlay");		
+		ctaOverlay.addEventListener("click", function(event){
+			event.target.classList.add("hide");
+			if(typeof krpano !== "undefined"){
+				krpano.call("play_pause_onoverlay_click()");
+				firstplayback = true;
+			}
+		});
+
+		/*function isElementInViewport (el) {
+		    //special bonus for those using jQuery
+		    if (typeof jQuery === "function" && el instanceof jQuery) {
+		        el = el[0];
+		    }
+
+		    var rect = el.getBoundingClientRect();
+		    return (
+		    	rect.bottom >= 0 && 
+		    	rect.right >= 0 && 
+		    	rect.top <= (window.innerHeight || document.documentElement.clientHeight) && 
+		    	rect.left <= (window.innerWidth || document.documentElement.clientWidth)
+		    );
+		}
+		function onVisibilityChange(el, callback) {
+		    var old_visible = false;
+		    return function () {
+		        var visible = isElementInViewport(el);
+		        if (visible != old_visible) {
+		            old_visible = visible;
+		            if (typeof callback == 'function') {
+		                callback();
+		            }
+		        }
+		    }
+		}
+		
+		var krpanoFrameWindow;
+		var el = document.querySelector("#pano-video-container");
+		var handler = onVisibilityChange(el, function() {
+			if(typeof krpanoFrameWindow.krpano !== "undefined" && firstplayback === false){
+				krpanoFrameWindow.krpano.call("autorotate_inview()");	
+			}
+			
+			// TODO: ADD AUTO PLAY/PAUSE ON ISVISIBLE
+		});
+		
+		if (window.addEventListener) {
+		    addEventListener('DOMContentLoaded', handler, false); 
+		    addEventListener('load', handler, false); 
+		    addEventListener('scroll', handler, false); 
+		    addEventListener('resize', handler, false); 
+		} else if (window.attachEvent)  {
+		    attachEvent('onDOMContentLoaded', handler); // IE9+ :(
+		    attachEvent('onload', handler);
+		    attachEvent('onscroll', handler);
+		    attachEvent('onresize', handler);
+		}*/
+	</script>
+</body>
+</html>

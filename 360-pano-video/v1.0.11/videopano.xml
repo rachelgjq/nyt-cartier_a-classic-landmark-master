@@ -1,0 +1,80 @@
+<krpano>
+
+	<action name="startup" autorun="onstart">
+		
+		if(device.panovideosupport == false,
+			error('Sorry, but panoramic videos are not supported by your current browser!');
+		  ,
+			loadscene(videopano);
+		  );
+	</action>
+
+	<autorotate enabled="false"
+            waittime="1.5"
+            accel="2.0"
+            speed="15.0"
+            />
+
+	<scene name="videopano" title="Cartier Timelapse">
+
+		<!-- include the videoplayer interface / skin (with VR support) -->
+		<include url="skin/videointerface.xml" />
+
+		<!-- include the videoplayer plugin -->
+		<plugin name="video"
+		        url.html5="%SWFPATH%/plugins/videoplayer.js"
+		        url.flash="%SWFPATH%/plugins/videoplayer.swf"
+		        posterurl='%CURRENTXML%/NYT_Cartier_360Video_Poster.jpg'
+		        pausedonstart="false"
+		        loop="false"
+		        volume="0"
+		        onloaded="add_video_sources();"
+		        />
+
+		<!-- use the videoplayer plugin as panoramic image source -->
+		<image>
+			<sphere url="plugin:video" />
+		</image>
+
+		<!-- set the default view -->
+		<view hlookat="0" vlookat="0" fovtype="DFOV" fov="100" fovmin="75" fovmax="150" distortion="0.0" />
+
+		<!-- add the video sources and play the video -->
+		<action name="add_video_sources">			
+		<!-- videointerface_addsource('720x360', '%CURRENTXML%/CartierFinal_720x360.mp4|%CURRENTXML%/Cartier_Audio.m4a', '%CURRENTXML%/NYT_Cartier_360Video_Poster.jpg'); -->
+		videointerface_addsource('1440x720', '%CURRENTXML%/videos/CartierFinal_1440x720.mp4|%CURRENTXML%/videos/Cartier_Audio.m4a');
+		<!-- videointerface_addsource('4096x2048', '%CURRENTXML%/CartierFinal_4096x2048.mp4|%CURRENTXML%/Cartier_Audio.m4a'); -->
+		
+		plugin[video].playvideo('%CURRENTXML%/videos/CartierFinal_1440x720.mp4|%CURRENTXML%/videos/Cartier_Audio.m4a', '%CURRENTXML%/videos/NYT_Cartier_360Video_Poster.jpg', false);
+		delayedcall(2.5, plugin[video].pause());
+		<!-- def(firstplayback, boolean, false); -->
+		
+		<!-- plugin[video].play(); -->
+		<!-- plugin[video].pause(); -->
+		</action>		
+		
+		<action name="autorotate_inview">
+			if(autorotate.isrotating,
+				delayedcall(0.5, autorotate.stop());
+			,
+				delayedcall(0.5, autorotate.start());
+			);
+		</action>
+		<action name="play_pause_onoverlay_click">			
+			delayedcall(0.5, autorotate.stop());
+			delayedcall(0.0, moveto(0,0,smooth()));
+			delayedcall(1.0, plugin[video].play());
+			<!-- set(firstplayback, true); -->
+			<!-- delayedcall(0.0, moveto(0,0,smooth(100,50,20))); -->
+			<!-- delayedcall(0.0, moveto(0,0,linear(10))); -->
+			<!-- delayedcall(0.5, lookto(0, 0)); -->
+		</action>
+
+		<!-- TODO: ADD AUTO PLAY/PAUSE ON ISVISIBLE -->
+
+		<action name="start_autorotate">
+			videointerface_play('1440x720');
+		</action>
+	</scene>
+
+</krpano>
