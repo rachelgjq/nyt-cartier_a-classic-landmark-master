@@ -1,0 +1,34 @@
+{
+  "name": "cartier-a-classic-landmark-for-the-modern-age",
+  "private": true,
+  "author": "Ad Platform Innovations",
+  "version": "1.3.6",
+  "PaidPost": {
+    "clientName": "Cartier",
+    "clientPath": "cartier",
+    "clientLink": "http://www.cartier.com/en-us/find-boutique/mansion.html",
+    "clientLogoPath": "images/logo.png",
+    "projectName": "A Classic Landmark for the Modern Age",
+    "projectPath": "a-classic-landmark-for-the-modern-age",
+    "showClientName": false,
+    "app": "app",
+    "dev": "build/dev",
+    "standalone": "build/standalone",
+    "dist": "build/dist",
+    "temp": "build/.tmp",
+    "assetsServer": "https://paidpost-assets.nyt.com/paidpost/",
+    "ajaxAssetsServer": "https://paidpost-assets.nyt.com/paidpost/",
+    "videoAssetsServer": "https://video1.nytimes.com/paidpost/",
+    "browserRefresh": true,
+    "curlUrl": "http://paidpost.nytimes.com/hewlett-packard/welcome-to-the-idea-economy.html",
+    "curlContainerSelector": "#story"
+  },
+  "devDependencies": {
+    "bourbon": "*",
+    "grunt": "^0.4.5",
+    "jit-grunt": "^0.10.0",
+    "load-grunt-config": "^0.19.1",
+    "nytpi-sass-utils": "github:nytpi/nytpi-sass-utils#development",
+    "scaffolding": "github:nytpi/scaffolding#v3.7.12"
+  }
+}

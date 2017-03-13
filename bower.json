@@ -1,0 +1,7 @@
+{
+  "name": "cartier-a-classic-landmark-for-the-modern-age",
+  "dependencies": {
+  "JKSizeClassEventHandler": "https://github.com/nytpi/JKSizeClassEventHandler.git",
+  "SupportsContinuousScrollEvents": "https://github.com/nytpi/SupportsContinuousScrollEvents.git"
+  }
+}
